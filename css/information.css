@@ -1,0 +1,159 @@
+.information > .container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 600px;
+    padding-top: 40px;
+}
+.information > .container > .shoreline {
+    display: flex;
+    align-items: center;
+    width: 45%;
+    height: 600px;
+}
+.information > .container > .shoreline img {
+    width: 100%;
+    height: 400px;
+    margin: 100px;
+}
+.information > .container > .texto {
+    padding: 30px;
+    margin: 100px;
+    border-left: 8px solid #64a19d;
+}
+.information > .container > .misty {
+    display: flex;
+    align-items: center;
+    width: 36%;
+    height: 400px;
+    align-self: flex-end;
+}
+.information > .container > .misty img {
+    width: 100%;
+    height: 400px;
+}
+.information > .container  .texto-2 {
+    background-color: black;
+    color: white;
+    width: 35%;
+    height: 400px;
+    padding: 40px ;
+}
+.information > .container > .texto-2 p {
+    margin-top: 20px;
+    padding-bottom: 10px;
+    border-bottom: 5px solid #64a19d;
+}
+.information > .container > .texto-2 h2 {
+    margin-top: 100px;
+}
+
+.information > .container > .mountains {
+    display: flex;
+    max-width: 35%;
+    background-color: black;
+    
+}
+.information > .container > .mountains img {
+    width: 100%;
+    height: 400px;
+}
+.information > .container .texto-3 {
+    color: white;
+    width: 36%;
+    height: 400px;
+    background-color: black;
+    justify-content: flex-end;
+    flex-direction: column;
+    text-align: right;
+    padding: 130px 50px;
+}
+.information > .container > .texto-3 h2 {
+    padding-bottom: 20px;
+}
+.information > .container > .texto-3 p {
+    padding-bottom: 10px;
+    border-bottom: 5px solid #64a19d;
+}
+@media (max-width: 599px) {
+    .information > .container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 20px;
+        padding-top: 20px;
+    }
+    .information > .container > .shoreline {
+        display: flex;
+        align-items: center;
+        width: 50%;
+        height: 400px;
+    }
+    .information > .container > .shoreline img {
+        width: 90%;
+        height: 250px;
+        margin: 30px;
+    }
+    .information > .container > .texto {
+        font-size: 13px;
+        padding: 10px;
+        margin: 0.5%;
+        border-left: 8px solid #64a19d;
+    }
+    .information > .container > .misty {
+        display: flex;
+        align-items: center;
+        width: 50%;
+        height: 300px;
+        align-self: flex-end;
+    }
+    .information > .container > .misty img {
+        width: 100%;
+        height: 300px;
+    }
+    .information > .container  .texto-2 {
+        background-color: black;
+        color: white;
+        width: 40%;
+        height: 300px;
+    }
+    .information > .container > .texto-2 p {
+        margin-top: 5px;
+        font-size: 12px;
+        padding-bottom: 10px;
+        border-bottom: 5px solid #64a19d;
+    }
+    .information > .container > .texto-2 h2 {
+        margin-top: 50px;
+    }
+    .information > .container .texto-3 {
+        color: white;
+        width: 50%;
+        height: 300px;
+        background-color: black;
+        justify-content: flex-end;
+        flex-direction: column;
+        text-align: right;
+        padding: 30px 50px;
+    }
+    .information > .container > .texto-3 h2 {
+        padding-bottom: 20px;
+        font-size: 20px;
+    }
+    .information > .container > .texto-3 p {
+        padding-bottom: 10px;
+        border-bottom: 5px solid #64a19d;
+    }
+    .information > .container > .mountains {
+        display: flex;
+        max-width: 40%;        
+    }
+    .information > .container > .mountains img {
+        width: 100%;
+        height: 300px;
+    }
+}

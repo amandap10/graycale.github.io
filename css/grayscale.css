@@ -1,0 +1,55 @@
+.section-grayscale  {
+    background: linear-gradient(to bottom, rgba(0,0,0,0.3) 0%, rgba(0,0,0.7) 75%, #131212 100%),
+    url('../pictures/bg-masthead.jpg');
+    background-size: 100%;
+    width: 100%;
+    justify-content: center;
+    text-align: center;
+    display: flex;
+    height: 800px;
+}
+.section-grayscale > .container button {
+    padding: 12px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    cursor: pointer;
+    color: white;
+    background-color: #64a19d;
+    border-radius: 5px;
+    margin-top: 25px;
+}
+.section-grayscale > .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    width: 100%;
+    margin: 0 auto;
+    color: #aeb8b8;
+}
+.section-grayscale> .container h2 {
+    text-transform: uppercase;
+    font-size: 80px;
+    background: -webkit-linear-gradient(#e6e6e6, #909090);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
+@media (max-width: 599px) {
+    .section-grayscale  {
+        background: linear-gradient(to bottom, rgba(0,0,0,0.3) 0%, rgba(0,0,0.7) 75%, #131212 100%),
+        url('../pictures/bg-masthead.jpg');
+        background-size: 100%;
+        width: 100%;
+        justify-content: center;
+        text-align: center;
+        display: flex;
+        height: 400px;
+    }   
+    .section-grayscale> .container h2 {
+        text-transform: uppercase;
+        font-size: 40px;
+        background: -webkit-linear-gradient(#e6e6e6, #909090);
+        -webkit-text-fill-color: transparent;
+        -webkit-background-clip: text;
+    }
+}

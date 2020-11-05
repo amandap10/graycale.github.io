@@ -1,0 +1,36 @@
+.footer > .container {
+    background-color: #131212;
+    width: 100%;
+    height: 300px;
+    display: flex;
+    padding: 30px;
+    justify-content: center;
+    align-items: center;
+}
+.footer > .container > .content  {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+.footer > .container > .content img {
+    width: 55px;
+    margin: 10px;
+    filter: invert(99%) sepia(1%) saturate(4420%) hue-rotate(269deg) brightness(121%) contrast(96%);
+}
+.footer > .container > .content .texto-1 {
+    margin-top: 60px ;
+    color: #909090;
+    text-transform: none;
+    font-size: 15px;
+}
+
+@media (max-width: 599px) {
+    .footer > .container {
+        flex-direction: column;
+        justify-content: center;
+        padding: 20px 0;
+        height: unset;
+    }
+    
+}

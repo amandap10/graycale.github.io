@@ -1,0 +1,38 @@
+.section-ipad {
+    padding-top: 20px;
+    text-align: center;
+    background-color: #131212;
+    color: white;
+}
+.section-ipad > .container span {
+    color: #64a19d;
+}
+.section-ipad > .container > .text {
+    display: flex;
+    flex-direction: column;
+    letter-spacing: 2px;
+    font-size: 18px;
+}
+.section-ipad > .container p {
+    flex-direction: column;
+    text-align: center;
+    margin-top: 40px;
+}
+.section-ipad > .container > .img {
+    justify-content: center;
+    height: auto;
+}
+.section-ipad > .img img {
+    width: 60%;
+    margin-top: 50px;
+}
+@media (max-width: 599px) {
+    .section-ipad > .container p {
+        flex-direction: column;
+        text-align: center;
+        margin-top: 20px;
+    }
+    .section-ipad > .container > .text {
+        font-size: 15px;
+    }
+}
