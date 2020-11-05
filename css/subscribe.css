@@ -52,16 +52,19 @@
         justify-content: center;
         align-items: center;
         width: 100%;
-        margin-top: 1100px;
+        margin-top: 1200px;
     }
     .subscribe > .container  input {
         margin: 20px;
-        padding: 20px 10px;
-        height: 35px;
+        padding: 10px 10px;
+        height: unset;
         text-transform: uppercase;
         letter-spacing: 4px;
         border-radius: 5px;
         width: 300px;
 
+    }
+    .subscribe > .container button {
+        padding: 10px;
     }
 }
